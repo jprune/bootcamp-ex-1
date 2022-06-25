@@ -9,15 +9,15 @@
 </head>
 <body>
     <header class="bg-bkg-header w-screen bg-center h-full bg-cover">
-        <div class="flex flex-row justify-between p-5 items-center mx-36">        
+        <div class="flex flex-col md:flex-row md:justify-between p-5 items-center md:mx-36 ">        
             <!--Box Logo-->
-            <div class="mr-24 flex items-center">
-                <img class="text-white" src="./resources/design-assets/png/logo.png" alt="violet tree background" />
+            <div class="md:mr-24 flex items-center mb-5 md:mb-0">
+                <img class="text-white " src="./resources/design-assets/png/logo.png" alt="violet tree background" />
                 <h1 class="text-3xl ml-5 text-cyan-400 font-extralight">tajam</h1>
             </div>
             <!--Box Navbar-->
             <navbar>
-                <ul class="text-white flex flex-row list-none hover:cursor-pointer">
+                <ul class="text-white flex flex-row flex-wrap justify-center list-none hover:cursor-pointer">
                     <li class="ml-5 hover:text-cyan-300">HOME</li>
                     <li class="ml-5 hover:text-cyan-300">ABOUT</li>
                     <li class="ml-5 hover:text-cyan-300">EXPERTISE</li>
@@ -31,20 +31,20 @@
 
         </div>
         <!--HERO header section-->
-        <div class="flex flex-col text-white mx-60 mt-32 h-auto items-center">
-            <h1 class="font-serif text-3xl">We Are Awesome Creative Agency</h1>
+        <div class="flex flex-col text-white mx-8 md:mx-60 mt-12 md:mt-32 h-auto items-center">
+            <h1 class="font-serif text-3xl text-center">We Are Awesome Creative Agency</h1>
             <p class="h-1 w-1/6 bg-sky-400 my-6"></p>
             <p class="text-center mb-9">This is Photoshop's version of Lorem Ipsum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </p>
-            <button class="border border-sky-400 text-sky-400 rounded-full px-4 py-2 mx-auto mb-48 hover:bg-sky-400 hover:text-white hover:shadow-md">LEARN MORE</button>
+            <button class="border border-sky-400 text-sky-400 rounded-full px-4 py-2 mx-auto mb-16 md:mb-48 hover:bg-sky-400 hover:text-white hover:shadow-md">LEARN MORE</button>
         </div>
     </header>
 
 
     <main>
         <!--Story card-->
-        <div class="flex flex-row bg-white mx-44 my-20 justify-around items-center">
-            <div><img class="w-96" src="./resources/design-assets/png/logo-big.png" alt="tajam logo"></div>
-            <div class="ml-32">
+        <div class="flex flex-col lg:flex-row bg-white mx-8 md:mx-44 my-12 md:my-20 justify-center items-center">
+            <div><img class="w-44 md:w-96 shrink-0.5 mb-8" src="./resources/design-assets/png/logo-big.png" alt="tajam logo"></div>
+            <div class="text-center md:text-left md:ml-32">
                 <h1 class="text-sky-900 font-semibold font-serif text-3xl mb-8">OUR STORY</h1>
                 <p class="mb-8 text-gray-500">This is Photoshop's version of Lorem Ipsum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi eveniet, omnis nisi obcaecati amet debitis, iste iure adipisci explicabo fugit eius assumenda facere ullam, quisquam ipsam? Adipisci, dolorem numquam? <br> <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus aperiam nemo similique quaerat, voluptate illum quos totam aliquid consequatur a exercitationem porro necessitatibus maiores nihil in ea inventore possimus molestias. labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                 <button class="border border-sky-400 text-sky-400 rounded-full px-4 py-2 mx-auto hover:bg-sky-400 hover:text-white hover:shadow-md">LEARN MORE</button>
@@ -52,7 +52,7 @@
         </div>
 
         <!--Watch our Story Card-->
-        <div class="bg-bkg-middle w-screen bg-center h-full bg-cover flex flex-row justify-around py-44">
+        <div class="bg-bkg-middle w-screen bg-center h-full bg-cover flex flex-row justify-around py-20 md:py-44">
             <div class="text-white flex flex-col items-center">
                 <img class="w-32 pb-10" src="./resources/design-assets/png/play.png" alt="play button">
                 <h1 class="font-bold text-2xl">WATCH OUR STORY</h1>
@@ -60,39 +60,39 @@
         </div>
 
         <!--Expertise card-->
-        <div class="flex flex-col bg-white mx-44 my-20 items-center justify-center">
+        <div class="flex flex-col bg-white mx-8 md:mx-44 my-10 md:my-20 items-center justify-center text-center">
             <div class="font-serif flex flex-col items-center">
                 <h1 class="font-semibold text-3xl text-sky-900 pb-6">EXPERTISE</h1>
                 <p class="text-lg text-gray-500">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
                 <p class="h-1 w-1/6 bg-gray-400 my-6 mb-20"></p>
             </div>
             <div class="flex flex-row flex-wrap justify-center">
-                <div class="w-1/3 flex flex-col items-center px-10 py-10">
+                <div class="md:w-1/3 flex flex-col items-center px-10 py-10">
                     <img class="" src="./resources/design-assets/png/screen.png">
                     <h3 class="py-5 font-bold text-xl">WEB DESIGN & DEVELOPMENT</h3>
                     <p class="text-center text-gray-500">This is Photohops's version of Lorem Ipsum. Proin gravida nibg vel velit auctor aliquet Aenean.</p>
                 </div>
-                <div class="w-1/3 flex flex-col items-center px-10 py-10">
+                <div class="md:w-1/3 flex flex-col items-center px-10 py-10">
                     <img class="" src="./resources/design-assets/png/pen.png">
                     <h3 class="py-5 font-bold text-xl">BRANDING IDENTITY</h3>
                     <p class="text-center text-gray-500">This is Photohops's version of Lorem Ipsum. Proin gravida nibg vel velit auctor aliquet Aenean.</p>
                 </div>
-                <div class="w-1/3 flex flex-col items-center px-10 py-10">
+                <div class="md:w-1/3 flex flex-col items-center px-10 py-10">
                     <img class="" src="./resources/design-assets/png/mobile.png">
                     <h3 class="py-5 font-bold text-xl">MOBILE APP</h3>
                     <p class="text-center text-gray-500">This is Photohops's version of Lorem Ipsum. Proin gravida nibg vel velit auctor aliquet Aenean.</p>
                 </div>
-                <div class="w-1/3 flex flex-col items-center px-10 py-10">
+                <div class="md:w-1/3 flex flex-col items-center px-10 py-10">
                     <img class="" src="./resources/design-assets/png/graph.png">
                     <h3 class="py-5 font-bold text-xl">SEARCH ENGINE OPTIMIZATION</h3>
                     <p class="text-center text-gray-500">This is Photohops's version of Lorem Ipsum. Proin gravida nibg vel velit auctor aliquet Aenean.</p>
                 </div>
-                <div class="w-1/3 flex flex-col items-center px-10 py-10">
+                <div class="md:w-1/3 flex flex-col items-center px-10 py-10">
                     <img class="" src="./resources/design-assets/png/gameboy.png">
                     <h3 class="py-5 font-bold text-xl">GAME DEVELOPMENT</h3>
                     <p class="text-center text-gray-500">This is Photohops's version of Lorem Ipsum. Proin gravida nibg vel velit auctor aliquet Aenean.</p>
                 </div>
-                <div class="w-1/3 flex flex-col items-center px-10 py-10">
+                <div class="md:w-1/3 flex flex-col items-center px-10 py-10">
                     <img class="" src="./resources/design-assets/png/heart.png">
                     <h3 class="py-5 font-bold text-xl">MADE WITH LOVE</h3>
                     <p class="text-center text-gray-500">This is Photohops's version of Lorem Ipsum. Proin gravida nibg vel velit auctor aliquet Aenean.</p>
@@ -101,35 +101,35 @@
         </div>
 
         <!--Team Card-->
-        <div class="bg-bkg-middle w-screen bg-center h-full bg-cover flex flex-col items-center py-44">
-            <div class="font-serif flex flex-col items-center text-white">
-                <h1 class="font-semibold text-3xl pb-6">EXPERTISE</h1>
+        <div class="bg-bkg-middle w-screen bg-center h-full bg-cover flex flex-col items-center md:py-44">
+            <div class="font-serif flex flex-col items-center text-white mx-8 my-12 text-center">
+                <h1 class="font-semibold text-3xl pb-6">TEAM</h1>
                 <p class="text-lg">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-                <p class="h-1 w-1/6 bg-white my-6 mb-20"></p>
+                <p class="h-1 w-1/6 bg-white my-6 md:mb-20"></p>
             </div>
-            <div class="flex flex-row gap-x-16 mb-20">
-                <div class="border border-white text-white text-center w-44">
+            <div class="flex flex-col md:flex-row flex-wrap gap-y-16 md:gap-x-16 mx-8 md:mb-20">
+                <div class="border border-white text-white text-center w-64 md:w-44">
                     <p class="bg-white h-44"></p>
                     <div class="py-5 px-3">
                         <h2 class="font-semibold">SEMF UCUK</h2>
                         <h4 class="font-light">CEO & FOUNDER</h4>
                     </div>
                 </div>
-                <div class="border border-white text-white text-center w-44">
+                <div class="border border-white text-white text-center w-64 md:w-44">
                     <p class="bg-white h-44"></p>
                     <div class="py-5 px-3">
                         <h2 class="font-semibold">DIK ADALIN</h2>
                         <h4 class="font-light">ENGINEERING</h4>
                     </div>
                 </div>
-                <div class="border border-white text-white text-center w-44">
+                <div class="border border-white text-white text-center w-64 md:w-44">
                     <p class="bg-white h-44"></p>
                     <div class="py-5 px-3">
                         <h2 class="font-semibold">JENG KOL</h2>
                         <h4 class="font-light">DESIGNER</h4>
                     </div>
                 </div>
-                <div class="border border-white text-white text-center w-44">
+                <div class="border border-white text-white text-center w-64 md:w-44">
                     <p class="bg-white h-44"></p>
                     <div class="py-5 px-3">
                         <h2 class="font-semibold">PET ROMAK</h2>
@@ -137,13 +137,13 @@
                     </div>
                 </div>
             </div>
-            <p class="text-white text-xl mb-10">Become part of our dream team, let's join us</p>
-            <button class="border border-sky-400 text-sky-400 rounded-full px-4 py-2 mx-auto hover:bg-sky-400 hover:text-white hover:shadow-md">WE ARE HIRING</button>
+            <p class="text-white text-xl my-10">Become part of our dream team, let's join us</p>
+            <button class="border border-sky-400 text-sky-400 rounded-full mb-14 px-4 py-2 mx-auto hover:bg-sky-400 hover:text-white hover:shadow-md">WE ARE HIRING</button>
         </div>
 
         <!--FORM & CLIENTS CARD-->
-        <div class="flex flex-row bg-white mx-44 my-32 items-start justify-between ">
-            <div class="w-1/2 pr-10">
+        <div class="flex flex-col md:flex-row bg-white md:mx-44 md:my-32 items-center text-center mx-8 my-14 md:items-start justify-between ">
+            <div class="md:w-1/2 md:pr-10">
                 <h1 class="font-semibold font-serif text-sky-900 text-3xl">GIVE US A GOOD NEWS</h1>
                 <form class="mt-12" action="/index.html">
                     <input class="border rounded-md border-gray-400 px-4 py-2 w-full mb-8" type="text" placeholder="Name" id="contact-name">
@@ -153,10 +153,10 @@
                 </form>
                 <button class="border border-sky-400 text-sky-400 rounded-full px-4 py-2 mx-auto hover:bg-sky-400 hover:text-white hover:shadow-md">SUBMIT</button>
             </div>
-            <div class="w-1/2">
-                <h1 class="font-semibold font-serif text-sky-900 text-3xl text-center">GIVE US A GOOD NEWS</h1>
+            <div class="md:w-1/2 mt-20 md:mt-0">
+                <h1 class="font-semibold font-serif text-sky-900 text-3xl text-center">OUR CUSTOMERS</h1>
                 <!--Markenlogos-->
-                <div class="grid grid-cols-2 grid-rows-5 grid-flow-row place-content-evenly mt-12 gap-10">
+                <div class="grid grid-cols-2 grid-rows-5 grid-flow-row place-content-evenly mt-8 md:mt-12 gap-10">
                     <img class="h-5 place-self-center" src="./resources/design-assets/png/Zara_Logo.png" alt="Zara logo">
                     <img class="place-self-center" src="./resources/design-assets/png/Logo_of_Mango_(new).png" alt="mango logo">
                     <img class="place-self-center" src="./resources/design-assets/png/1280px-Barneys_New_York_Logo.png" alt="barney new york logo">
@@ -172,26 +172,26 @@
         </div>
         <!--Footer section-->
         <div class="bg-bkg-footer w-screen bg-center h-full bg-cover text-white">
-            <div class="grid grid-cols-3 mx-44 py-32 gap-x-10 place-content-between">
-                <div class="place-self-center">
-                    <div class="mr-24 flex flex-row items-center pb-8">
+            <div class="flex flex-col md:flex-row md:mx-44 md:py-32 py-10 items-center">
+                <div class="md:w-1/3 justify-center px-14 md:px-0 mb-8">
+                    <div class="md:mr-24 flex flex-row justify-center pb-8">
                         <img class="text-white" src="./resources/design-assets/png/logo.png" alt="violet tree background" />
                         <h1 class="text-3xl ml-5 text-cyan-400 font-extralight">tajam</h1>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet nisi, laboriosam corporis cum molestiae facere, sunt atque eum debitis explicabo animi nemo, obcaecati accusantium eligendi! Tempore voluptatibus minima accusamus. Quo.</p>
                 </div>
-                <div class="place-self-center">
+                <div class="md:w-1/3 flex flex-col items-center mb-14">
                     <h2 class="font-bold pb-8 text-3xl">OUR STUDIO</h2>
                     <div class="flex items-center pb-8">
                         <div><img class="pr-7" src="./resources/design-assets/png/big104.png" alt="location"></div>
                         <p>Ruko cucruk, Jl. Radio luar dalem jos <br> No.12-13, Kalideres - Jakarta Barat <br> 11480 - Indonesia</p>
                     </div>
-                    <div class="flex items-center">
+                    <div class="flex items-center mr-28">
                         <div><img class="pr-7" src="./resources/design-assets/png/phone351.png" alt="phone number"></div>
                         <p>(+62) 21-2224 3333</p>
                     </div>
                 </div>
-                <div class="place-self-center">
+                <div class="md:w-1/3 flex flex-col items-center">
                     <h2 class="font-bold pb-8 text-3xl">STAY IN TOUCH</h2>
                     <div class="flex">
                         <input class="w-60 p-4 text-sky-900" type="email" id="newsletter-email" placeholder="Subscribe to our newsletter">
@@ -199,21 +199,21 @@
                             <img src="./resources/design-assets/png/paper122.png" alt="Send button">
                         </button>
                     </div>
-                    <div class="flex pt-10 cursor-pointer">
-                        <img class="pr-4" src="./resources/design-assets/png/facebook.png" alt="facebook profile">
-                        <img class="pr-4" src="./resources/design-assets/png/twitter.png" alt="twitter profile">
-                        <img class="pr-4" src="./resources/design-assets/png/dribbble.png" alt="dribble profile">
-                        <img class="pr-4" src="./resources/design-assets/png/instagram.png" alt="instagram profile">
-                        <img class="pr-4" src="./resources/design-assets/png/gplus.png" alt="googleplus profile">
-                        <img class="pr-4" src="./resources/design-assets/png/youtube.png" alt="youtube profile">
+                    <div class="flex flex-wrap pt-10 cursor-pointer ">
+                        <img class="p-4" src="./resources/design-assets/png/facebook.png" alt="facebook profile">
+                        <img class="p-4" src="./resources/design-assets/png/twitter.png" alt="twitter profile">
+                        <img class="p-4" src="./resources/design-assets/png/dribbble.png" alt="dribble profile">
+                        <img class="p-4" src="./resources/design-assets/png/instagram.png" alt="instagram profile">
+                        <img class="p-4" src="./resources/design-assets/png/gplus.png" alt="googleplus profile">
+                        <img class="p-4" src="./resources/design-assets/png/youtube.png" alt="youtube profile">
                     </div>
                 </div>
             </div>
-            <div class="flex flex-row justify-between mx-44 pt-5 pb-20">
+            <div class="flex flex-col md:flex-row md:justify-between md:mx-44 pt-5 pb-20 items-center">
                 <ul class="flex list-none hover:cursor-pointer">
-                    <li class="mr-14 hover:text-cyan-300">HELP</li>
-                    <li class="mr-14 hover:text-cyan-300">TERMS & CONDITION</li>
-                    <li class="mr-14 hover:text-cyan-300">PRIVACY</li>
+                    <li class="md:mr-14 hover:text-cyan-300">HELP</li>
+                    <li class="md:mr-14 mx-5 hover:text-cyan-300">TERMS & CONDITION</li>
+                    <li class="md:mr-14 hover:text-cyan-300">PRIVACY</li>
                 </ul>
                 <p>Copyright © 2015 - Tajem Creative</p>
             </div>
