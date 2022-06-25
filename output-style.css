@@ -980,15 +980,15 @@ html {
 }
 
 .bg-bkg-header {
-  background-image: url('/resources/design-assets/bgk-header.png');
+  background-image: url('./resources/design-assets/bgk-header.png');
 }
 
 .bg-bkg-middle {
-  background-image: url('/resources/design-assets/bgk-middle.png');
+  background-image: url('./resources/design-assets/bgk-middle.png');
 }
 
 .bg-bkg-footer {
-  background-image: url('/resources/design-assets/bgk-footer.png');
+  background-image: url('./resources/design-assets/bgk-footer.png');
 }
 
 .bg-cover {
